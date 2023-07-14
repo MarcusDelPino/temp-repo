@@ -85,7 +85,7 @@ export class Home extends Component {
           <Posts posts={filterPosts} />
         )} 
         {filterPosts.length === 0 && (
-          <p>Não existem posts com {searchValue}</p>
+          <p>Não existe posts com {searchValue}</p>
         )}
 
         <div className="button-container"> 
